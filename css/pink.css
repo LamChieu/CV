@@ -1,0 +1,33 @@
+.aside .logo a::before{
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839
+}
+
+.aside .logo a::after{
+    border-right: 4px solid #ec1839;
+    border-bottom: 4px solid #ec1839;
+}
+.contact .contact-info-item .icon .fa,
+.aside .nav li a:hover, 
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a.active {
+    color: #ec1839 !important;
+}
+
+body.dark .client-box:hover,
+.client-box:hover,
+.client-box a,
+.circle-dot,
+.timeline-item::before,
+.progress-in,
+.btn,
+.aside .nav-toggler span, 
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a,
+.section-title h2::before,
+.section-title h2::after {
+    background-color: #ec1839;
+}
+
